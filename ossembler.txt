@@ -1,0 +1,21 @@
+00  RET
+
+01  MOV     Rd,Rr   Rd = Rr
+02  LDI     Rd,K    Rd = K
+03  LDS     Rd,k    Rd = (k)
+04  STS     k,Rr    (k) = Rr
+
+05  ADD     Rd,Rr   Rd = Rd + Rr
+06  SUB     Rd,Rr   Rd = Rd - Rr
+
+07  INC     Rd      Rd = Rd + 1
+08  DEC     Rd      Rd = Rd - 1
+09  CLR     Rd      Rd = Rd ^ Rd
+
+0A  MUL     Rd,Rr   Rd = Rd * Rr
+
+0B  PUSH    Rr      STACK = Rr
+0C  POP     Rd      Rd = STACK
+
+0D  IN      Rd      Rd = STDIN
+0E  OUT     Rr      STDOUT = Rr

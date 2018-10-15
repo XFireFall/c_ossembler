@@ -1,0 +1,14 @@
+        CLR r1
+        CLR r2
+        CLR r3
+        INC r1
+        OUT r1
+        OUT r2
+        ADD r2, r1
+        OUT r1
+        OUT r2
+        LDI r3, 42
+        MOV r1, r3
+        MUL r1, r3
+        OUT r1
+        RET
